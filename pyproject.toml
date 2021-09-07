@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mock-picamera"
+version = "0.1.0"
+description = "Stubs for the picamera so code with it can be run on a desktop"
+authors = ["Edwin Shepherd <shardros@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
